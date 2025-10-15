@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Your Story",
+    "slug": "your-story-final",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/app_icon_clean.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.yourname.yourstory"
+    },
+    "ios": {
+      "bundleIdentifier": "com.yourname.yourstory"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "03cf36ea-c08d-4f24-a02a-2ff9d042832b"
+      }
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "classpath": [
+              "dev.expo:expo-module-gradle-plugin:1.11.14"
+            ]
+          }
+        }
+      ],
+      "expo-font"
+    ]
+  }
+}
